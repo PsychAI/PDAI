@@ -7,3 +7,27 @@
   background-color: maroon;
   cursor: pointer;
 }
+
+.sidenav {
+    height: 100%;
+    width: 420px;
+    position: fixed;
+    z-index: 1;
+    top: 20;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    color: white;
+}
+.main {
+    margin-left: 440px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
