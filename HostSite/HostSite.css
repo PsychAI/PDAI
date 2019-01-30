@@ -7,27 +7,60 @@
   background-color: maroon;
   cursor: pointer;
 }
-
-.sidenav {
+#sidenav {
     height: 100%;
-    width: 420px;
-    position: fixed;
+    width: 25%;
+    position: absolute;
     z-index: 1;
     top: 20;
     left: 0;
-    background-color: black;
+    background-color: white;
     overflow-x: hidden;
     padding-top: 10px;
     padding-left:10px;
     padding-right: 10px;
-    color: white;
+    color: black;
 }
-.main {
-    margin-left: 440px;
+#main {
+    margin-left: 30%;
     padding-top: 10px;
     padding-left: 10px;
+    background-color: white;
+    color: black;
 }
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+.link{
+  color: black;
+  font: Times New Roman;
+  text-decoration: none;
+}
+body{
+  background-color: black;
+  color: white;
+}
+#fb{
+  background-color:#3b5998;
+}
+#twit{
+  background-color:#00ACED;
+}
+#insta{
+  background-color:#FB3958;
+}
+#pint{
+  background-color:#C8232C;
+}
+.sm{
+  color:white;
+  border-radius:64px;
+}
+.sm:hover{
+  opacity:0.7;
+  cursor: pointer;
+}
+#footer{
+    margin-left: 30%;
+    padding-left: 10px;
+}
+#contactlink{
+  color: white;
 }
