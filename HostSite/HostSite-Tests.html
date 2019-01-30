@@ -8,22 +8,57 @@
   </head>
   <body>
     <script src="index.js"></script>
-    <h1 align="center"> Psychological Diagnostic Artificial Intelligence (PDAI) </h1>
-    <h2 align="center">
-      <b><a href="Error.html"><button class="button" id="homebutton" onclick="leave()"> Psych AI </button></a></b>
-      <b><a href="Home.html"><button class="button"> Home </button></a></b>
-      <b><a href="Error.html"><button class="button"> About </button></a></b>
-      <b><a href="Error.html"><button class="button"> Mission </button></a></b>
-      <b><a href="Tests.html"><button class="button"> Tests </button></a></b>
-    </h2>
-    <div class="sidenav">
-      <h1 align="center"> News </h1>
-      <br>
-      <h3> Psych AI Begins Development of New Website </h3>
-      <p><b><u> Beta Version:</u></b> Development of Psych AI's new website, Beta Version, began on May 18th of 2018. The site is expected to consist of a compilation of many psychology tests that can be taken while development of the Psychological Diagnostic Artificial Intelligence (PDAI) is under way. It is intended that users will have the option to store their test information in a "profile" for the PDAI to use in test trials. Links or buttons that aren't working will bring users to an error message instead of simply not working. </p>
+    <div id="header">
+      <div w3-include-html="Header.html"></div>
+      <script>
+        includeHTML();
+      </script>
     </div>
-    <div class="main">
-      <h3> Depression </h3>
+    <div id="sidenav">
+      <div w3-include-html="NewsSB.html"></div>
+      <script>
+        includeHTML();
+      </script>
+    </div>
+    <div id="main">
+      <p>Each link below will bring you to a separate page where there will automatically be a test ready for you to take or where you will have to click a button/link to begin the test.</p>
+      <h3><u> Depression </u></h3>
+      <p>
+        <ul>
+          <li><a href="https://www.psycom.net/depression-test/" class="link" target="blank">Psycom</a>
+          <br>
+          <br>
+          <li><a href="https://depression.org.nz/is-it-depression-anxiety/self-test/" class="link" target="blank">Health Promotion Agency (HPA)</a>
+          <br>
+          <br>
+          <li><a href="http://www.familyaware.org/help-someone/take-the-depression-and-bipolar-test/" class="link" target="blank">Families for Depression Awareness</a>
+          <br>
+          <br>
+          <li><a href="https://screening.mentalhealthamerica.net/screening-tools/depression?show=1&ref=https%3A%2F%2Fwww.google.com%2F&ipiden=974aadcec08eb99c21e79211b2d9449c" class="link" target="blank">Mental Health America</a>
+          <br>
+          <br>
+          <li><a href="https://mindspot.org.au/brief-depression-quiz" class="link" target="blank">MindSpot</a>
+          <br>
+          <br>
+          <li><a href="https://www.depression-anxiety-stress-test.org/take-the-test.html" class="link" target="blank">https://www.depression-anxiety-stress-test.org/take-the-test.html</a>
+          <br>
+          <br>
+          <li><a href="https://www.depression-anxiety-stress-test.org/depression/online-depression-test.html" class="link" target="blank">https://www.depression-anxiety-stress-test.org/depression/online-depression-test.html</a>
+          <br>
+          <br>
+          <li><a href="https://www.clinical-partners.co.uk/for-adults/depression/a-test-for-depression" class="link" target="blank">Clinical Partners</a>
+          <br>
+          <br>
+          <li><a href="https://smokefree.gov/challenges-when-quitting/mood/depression-quiz" class="link" target="blank">smokefree.gov</a>
+        </ul>
+        <br>
+      </p>
+    </div>
+    <div id="footer">
+      <div w3-include-html="Footer.html"></div>
+      <script>
+        includeHTML();
+      </script>
     </div>
   </body>
 </html>
