@@ -8,14 +8,27 @@
   </head>
   <body>
     <script src="index.js"></script>
-    <h1 align="center"> Psychological Diagnostic Artificial Intelligence (PDAI) </h1>
-    <h2 align="center">
-      <b><a href="Error.html"><button class="button" id="homebutton" onclick="leave()"> Psych AI </button></a></b>
-      <b><a href="Home.html"><button class="button"> Home </button></a></b>
-      <b><a href="Error.html"><button class="button"> About </button></a></b>
-      <b><a href="Error.html"><button class="button"> Mission </button></a></b>
-      <b><a href="Tests.html"><button class="button"> Tests </button></a></b>
-    </h2>
-    <b><p> We apologize, but this page/button/link is currently nonoperational. Please return to the previous page. </p></b>
+    <div id="header">
+      <div w3-include-html="Header.html"></div>
+      <script>
+        includeHTML();
+      </script>
+    </div>
+    <div id="sidenav">
+      <div w3-include-html="NewsSB.html"></div>
+      <script>
+        includeHTML();
+      </script>
+    </div>
+    <div id="main">
+      <b><p> We apologize, but this page/button/link is currently nonoperational. Please return to the previous page and report this to <a href="mailto:epicdude203@gmail.com" class="link">Jacob Knox</a>. </p></b>
+      <br>
+    </div>
+    <div id="footer">
+      <div w3-include-html="Footer.html"></div>
+      <script>
+        includeHTML();
+      </script>
+    </div>
   </body>
 </html>
