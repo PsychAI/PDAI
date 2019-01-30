@@ -8,22 +8,30 @@
   </head>
   <body>
     <script src="index.js"></script>
-    <h1 align="center"> Psychological Diagnostic Artificial Intelligence (PDAI) </h1>
-    <h2 align="center">
-      <b><a href="Error.html"><button class="button" id="homebutton" onclick="leave()"> Psych AI </button></a></b>
-      <b><a href="Home.html"><button class="button"> Home </button></a></b>
-      <b><a href="Error.html"><button class="button"> About </button></a></b>
-      <b><a href="Error.html"><button class="button"> Mission </button></a></b>
-      <b><a href="Tests.html"><button class="button"> Tests </button></a></b>
-    </h2>
-    <div class="sidenav">
-      <h1 align="center"> News </h1>
-      <br>
-      <h3> Psych AI Begins Development of New Website </h3>
-      <p><b><u> Beta Version:</u></b> Development of Psych AI's new website, Beta Version, began on May 18th of 2018. The site is expected to consist of a compilation of many psychology tests that can be taken while development of the Psychological Diagnostic Artificial Intelligence (PDAI) is under way. It is intended that users will have the option to store their test information in a "profile" for the PDAI to use in test trials. Links or buttons that aren't working will bring users to an error message instead of simply not working. </p>
+    <div id="header">
+      <div w3-include-html="Header.html"></div>
+      <script>
+        includeHTML();
+      </script>
     </div>
-    <div class="main">
+    <div id="sidenav">
+      <div w3-include-html="NewsSB.html"></div>
+      <script>
+        includeHTML();
+      </script>
+    </div>
+    <div id="main">
       <p> Welcome to Psych AI's Psychological Diagnostic Artificial Intelligence (PDAI)! </p>
+      <br>
+      <p> Please take the time to review our site with this relatively short form. Thanks! </p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDck3VoY7dfW0FyToJG73lM-p2lPT9OXG5V1mxW2MyxYyScg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <br>
+    </div>
+    <div id="footer">
+      <div w3-include-html="Footer.html"></div>
+      <script>
+        includeHTML();
+      </script>
     </div>
   </body>
 </html>
